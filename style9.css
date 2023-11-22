@@ -1,0 +1,39 @@
+.wrapper{
+    padding: 20px;
+    border: solid 5px rgb(70, 108, 183);
+    width: 300px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding-top: 5px;
+    height: 250px;
+}
+.rez{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+button{
+    font-size: x-large;
+}
+.display{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 50px;
+}
+.display input{
+    text-align: right;
+    font-size: x-large;
+}
